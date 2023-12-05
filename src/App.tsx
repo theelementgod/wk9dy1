@@ -1,6 +1,5 @@
 import Header from "./Header"
 import Operations from "./Operations"
-import Solution from "./Solution"
 
 const App = () => {
   const math = ['Addition', 'Subtraction', 'Multiplication', 'Division', 'Exponents']
@@ -8,7 +7,7 @@ const App = () => {
     <>
       <Header/>
       <Operations math={math} />
-      <Solution/>
+     
       
     </>
   )
